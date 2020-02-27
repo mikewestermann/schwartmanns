@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registrierung | Schwartmanns</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+
+  <body>
+    <a href="/">Home</a><a href="/register">Registrierung</a><a href="/login">Login</a>
+
+    <h1>Registrieren Sie sich für das brandneue Schwartmanns Webportal!</h1>
+
+    <form method="POST">
+      <input
+        type="text"
+        name="Vorname"
+        placeholder="Vorname"
+        required
+      /><br />
+      <input
+        type="text"
+        name="Nachname"
+        placeholder="Nachname"
+        required
+      /><br />
+      <input
+        type="text"
+        name="Name_des_Unternehmens"
+        placeholder="Name des Unternehmens"
+        required
+      /><br />
+      <input
+        type="text"
+        name="Position_im_Unternehmen"
+        placeholder="Position im Unternehmen"
+        required
+      /><br />
+      <input
+        type="email"
+        name="Email_Adresse"
+        placeholder="Emailadresse"
+        required
+      /><br />
+      <input
+        type="password"
+        name="Passwort"
+        placeholder="Passwort"
+        required
+      /><br />
+      <input
+        type="password"
+        name="Passwort_wiederholen"
+        placeholder="Passwort wiederholen"
+        required
+      /><br />
+      <button>Registrieren</button>
+    </form>
+  </body>
+</html>
