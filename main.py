@@ -78,7 +78,9 @@ def login():
 @app.route("/dashboard", methods=["GET", "POST"])
 def dashboard():
     if request.method == "GET":
-        return render_template("dashboard.html")      
+        return render_template("dashboard.html")    
+    elif request.method == "POST":
+        name = db.query(Machine_models).filter_by(name=name).first()
 
                     
 if __name__ == "__main__":

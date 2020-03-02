@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="/static/css/style.css" />
   </head>
   <body>
-    <p>
-      <a href="/">Home</a><a href="/register">Registrieren</a><a href="/login">Login</a>
-    </p>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">
+        <img src="static/css/img/schwartmanns-logo.png" width="auto" height="30" alt="schwartmanns-logo">
+      </a>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Start</a>
+      <li class="nav-item">
+        <a class="nav-link" href="/register">Registrieren</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/login">Login</a>
+      </li>
+      
+    </nav>
     <h1>Login</h1>
     <form method="POST"> 
       <div class="form-group">
